@@ -191,7 +191,7 @@ void validateRegisterFunctionalitybyProvidingInvalidEmailID() throws IOException
 	}
 }
 
-@Test(priority = 5,enabled = false)
+@Test(priority = 5,enabled = true)
 /*TestCase5 - "Validate registering an account by providing all input fields except Login"
 1.Open a browser
 2.Open the URL(http://demo.redmine.com)
@@ -232,7 +232,7 @@ catch(Exception e) {
 
 }
 
-@Test(priority = 6,enabled = false)
+@Test(priority = 6,enabled = true)
 /*TestCase6 - "Validate registering an account by providing all input fields except First Name"
 1.Open a browser
 2.Open the URL(http://demo.redmine.com)
@@ -273,7 +273,7 @@ catch(Exception e) {
 
 }
 
-@Test(priority = 7,enabled = false)
+@Test(priority = 7,enabled = true)
 /*TestCase7 - "Validate registering an account by providing all input fields except Last Name"
 1.Open a browser
 2.Open the URL(http://demo.redmine.com)
@@ -314,7 +314,7 @@ catch(Exception e) {
 
 }
 
-@Test(priority = 8,enabled = false)
+@Test(priority = 8,enabled = true)
 /*TestCase8 - "Validate registering an account by providing all input fields except Email Id"
 1.Open a browser
 2.Open the URL(http://demo.redmine.com)
@@ -355,7 +355,7 @@ catch(Exception e) {
 
 }
 
-@Test(priority = 9,enabled = false)
+@Test(priority = 9,enabled = true)
 /*TestCase9 - "Validate registering an account by providing all input fields except Password"
 1.Open a browser
 2.Open the URL(http://demo.redmine.com)
@@ -397,7 +397,7 @@ catch(Exception e) {
 
 }
 
-@Test(priority = 10, enabled = false)
+@Test(priority = 10, enabled = true)
 /*TestCase10 - "Validate registering an account by providing all input fields except Confirmation"
 1.Open a browser
 2.Open the URL(http://demo.redmine.com)
